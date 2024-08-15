@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CashIQ</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,200;1,300;1,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        h6,h1,h2,p{
+            color: white !important;
+}
+body{
+  background-color: black !important;
+}
+.accordion{
+    --bs-accordion-btn-bg:white;
+    --bs-accordion-bg:black;
+    --bs-accordion-color:white;
+}
+.accordion-button:not(.collapsed){
+    box-shadow:none;
+    
+}
+    </style>
+</head>
+<body>
+    <section id="title">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary navbar-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">CashIQ</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item me-3">
+                            <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item dropdown me-3">
+                            <a class="nav-link dropdown-toggle" href="products.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Services
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="investing.html">Investing</a></li>
+                                <li><a class="dropdown-item" href="per_fin.html">Personal Finances</a></li>
+                                <li><a class="dropdown-item" href="banking.html">Banking</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item me-3">
+                            <a class="nav-link" aria-current="page" href="#">Community</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </section>
+    <div class="container">
+        <br>
+        <h1>Budget Planning</h1>
+        <p>
+            Budget planning is the process of creating a detailed financial plan that outlines income sources, expenses, and savings goals over a specific period. It involves allocating funds strategically to meet financial objectives while ensuring spending remains within predetermined limits.</p>
+        <hr>
+    </div>
+    <section class="menu-lists container">
+        <div class="accordion custom-accordion" id="accordionPanelsStayOpenExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                        How Budget Planning Work
+                    </button>
+                </h2>
+                <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+                    <div class="accordion-body">
+                        <p>Users input their income, fixed expenses, and discretionary spending into the budget planner. The tool then calculates the net income, allocates funds to various expense categories, and highlights areas for potential savings. Periodic tracking and adjustments enable users to stay on top of their financial goals.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                        Benefits of Budget Planning
+                    </button>
+                </h2>
+                <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                    <div class="accordion-body">
+                        <p>Effective budget planning can help individuals or households manage finances efficiently, track spending patterns, prioritize savings, and achieve long-term financial objectives.They assist in identifying spending patterns, setting realistic financial goals, and saving for specific objectives. The tools promote financial well-being by helping users live within their means and build savings.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                        Risks of Budget Planning
+                    </button>
+                </h2>
+                <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                    <div class="accordion-body">
+                        <p>Failure to accurately estimate expenses or unexpected financial emergencies can lead to overspending, debt accumulation, and inability to achieve financial goals. Users should also be cautious about relying too heavily on budgeting apps that request sensitive financial information, ensuring they choose reputable and secure platforms.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-headingFour">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">
+                        Strategies for Budget Planning
+                    </button>
+                </h2>
+                <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFour">
+                    <div class="accordion-body">
+                        <p>Set realistic financial goals based on income, expenses, and savings objectives to guide budget planning efforts.Track expenses meticulously by recording all expenditures, including small purchases, to identify spending patterns and areas for improvement.
+                            Prioritize essential expenses such as housing, utilities, groceries, and debt payments to ensure basic needs are met before allocating funds to discretionary spending.
+                            Allocate a portion of income for savings and investments, including emergency funds, retirement accounts, and other long-term financial goals.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container pb-5">
+        <div class="div-22">
+            To learn more about budget planning,check the below excel sheet tracker
+            <br />
+          </div>
+          <a href="#" class="investing-link" onclick=" window.location.href ='expense_tracker.html'" >
+            <button type="button" class="btn btn-primary btn-lg px-4 me-lg-3">Track Your Expenses</button>
+            </a>
+          
+    </section>
+    
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+    <script src="//code.tidio.co/jfbgzlrr7mf8idrpon9baozfwjwgeure.js" async></script>
+    <script src="https://cdn.auth0.com/js/auth0/9.12/auth0.min.js"></script>
+</body>
+</html>
+<style>
+    .div-22 {
+          color: #fff;
+          letter-spacing: 0.07px;
+          margin: 52px 0 0 23px;
+          font: 700 40px/40px Montserrat, sans-serif;
+        }
+        @media (max-width: 991px) {
+          .div-22 {
+            max-width: 100%;
+            margin-top: 40px;
+          }
+        }
+        .img-2 {
+          aspect-ratio: 0.95;
+          object-fit: auto;
+          object-position: center;
+          width: 230px;
+          max-width: 100%;
+          margin: 48px 0 0 46px;
+        }
+        @media (max-width: 991px) {
+          .img-2 {
+            margin: 40px 0 0 10px;
+          }
+        }
+        .div-23 {
+          color: #f7f4f4;
+          letter-spacing: 0.07px;
+          width: 500px;
+          margin: 17px 0 0 35px;
+          font: 500 12px/20px Montserrat, sans-serif;
+        }
+        @media (max-width: 991px) {
+          .div-23 {
+            margin-left: 10px;
+          }
+        }
+</style>
